@@ -111,13 +111,6 @@ public class ControlPanel extends JPanel {
                 }
             });
 
-            GUIUtil.addMenuItem(menu, "Launch Programs", new AbstractAction() {
-                @Override
-                public void actionPerformed(ActionEvent e) {
-                    LauncherUtil.launchPrograms();
-                }
-            });
-
             GUIUtil.addMenuItem(menu, "Sync Instances", new AbstractAction() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
